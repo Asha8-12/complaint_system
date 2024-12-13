@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo-container img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .logo-container h1 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b69b00f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup-links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-link, .forgot-password {
+    display: block;
+    color: #0077b6;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }

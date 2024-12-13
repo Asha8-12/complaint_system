@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-right: 1px solid #080000;
+}
+
+.sidebar a {
+  display: block;
+  color: #01010269;
+  text-decoration:darkgray;
+  padding: 20px;
+}
+
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); /* Adjusted grid template columns */
+  grid-gap: 20px;
+  padding: 200px;
+}
+
+.card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
